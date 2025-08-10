@@ -100,32 +100,6 @@ This project demonstrates the implementation of a Security Information and Event
 3. Set alert properties
 4. Enable incident creation
 
-## Key Queries
-
-### Successful System Logins
-```kusto
-SecurityEvent
-| where Activity contains "success" and Account contains "system"
-| project TimeGenerated, Account, Computer, Activity, EventID
-```
-
-### Failed RDP Attempts
-```kusto
-SecurityEvent
-| where EventID == 4625
-| where IpAddress != "-"
-| summarize FailedAttempts = count() by IpAddress, Computer
-| where FailedAttempts > 5
-```
-
-### Privilege Escalation Detection
-```kusto
-SecurityEvent
-| where EventID in (4672, 4673, 4674)
-| where AccountType == "User"
-| project TimeGenerated, Account, Computer, Activity, PrivilegeList
-```
-
 ## Monitoring & Detection Capabilities
 
 - ✅ Real-time security event monitoring
