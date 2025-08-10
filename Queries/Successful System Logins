@@ -1,0 +1,3 @@
+SecurityEvent
+| where Activity contains "success" and Account contains "system"
+| project TimeGenerated, Account, Computer, Activity, EventID
