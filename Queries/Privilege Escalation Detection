@@ -1,0 +1,4 @@
+SecurityEvent
+| where EventID in (4672, 4673, 4674)
+| where AccountType == "User"
+| project TimeGenerated, Account, Computer, Activity, PrivilegeList
