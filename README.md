@@ -149,7 +149,7 @@ This project is for educational purposes. Please ensure compliance with Azure's 
 ## Author
 
 **deadpoet**
-- GitHub: [@deadpoet](https://github.com/yourusername)
+- GitHub: [@deadpoet](https://github.com/d3adp0et)
 - Created: July 17, 2025
 
 ## 🙏 Acknowledgments
