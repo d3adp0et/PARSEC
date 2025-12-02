@@ -102,13 +102,13 @@ This project demonstrates the implementation of a Security Information and Event
 
 ## Monitoring & Detection Capabilities
 
-- ✅ Real-time security event monitoring
-- ✅ Automated threat detection
-- ✅ Incident creation and management
-- ✅ Custom alert rules
-- ✅ 5-minute detection frequency
-- ✅ Centralized logging
-- ✅ Scalable architecture
+- [ ] Real-time security event monitoring
+- [ ] Automated threat detection
+- [ ] Incident creation and management
+- [ ] Custom alert rules
+- [ ] 5-minute detection frequency
+- [ ] Centralized logging
+- [ ] Scalable architecture
 
 ## Skills Demonstrated
 
@@ -152,10 +152,7 @@ This project is for educational purposes. Please ensure compliance with Azure's 
 - GitHub: [@deadpoet](https://github.com/d3adp0et)
 - Created: July 17, 2025
 
-## 🙏 Acknowledgments
-
-- Microsoft Azure for the free tier resources
-- The cybersecurity community for shared knowledge
+## Acknowledgments
 - Azure Sentinel documentation and tutorials
 
 ---
