@@ -121,14 +121,14 @@ This project demonstrates the implementation of a Security Information and Event
 
 ## Future Enhancements
 
-- [x] Add more data sources (Linux, Firewall logs)
-- [x] Implement threat intelligence feeds
-- [x] Create custom workbooks and dashboards
-- [x] Add automated response playbooks
-- [x] Integrate with SOAR capabilities
-- [x] Implement machine learning-based detections
-- [x] Add geographic visualization of attacks
-- [x] Configure multi-stage attack detection
+- [ ] Add more data sources (Linux, Firewall logs)
+- [ ] Implement threat intelligence feeds
+- [ ] Create custom workbooks and dashboards
+- [ ] Add automated response playbooks
+- [ ] Integrate with SOAR capabilities
+- [ ] Implement machine learning-based detections
+- [ ] Add geographic visualization of attacks
+- [ ] Configure multi-stage attack detection
 
 ## Lessons Learned
 
